@@ -1,0 +1,89 @@
+#logo {
+    height: 65px;
+    width: 65px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+#webdev {
+    margin: 10px 40px;
+}
+
+div.container {
+    margin-left: 90px;
+}
+
+.contact {
+    color: #6c757d;
+    font-size: 2.5em;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+.contact:hover {
+    color: #f8f9fa;
+}
+
+.display-4 {
+    font-weight: 450;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 5rem;
+}
+
+.lead {
+    font-size: 2rem;
+    padding-left: 5px;
+}
+
+.col {
+    text-align: center;
+    margin: 10px 20px;
+    border-radius: 15px;
+    border: 1.5px solid rgba(0, 0, 0, 0.7);
+}
+
+hr.jumbo-break {
+    margin: 25px auto;
+    width: 90%;
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #000000, #8c8b8b, #000000);
+    background-image: -moz-linear-gradient(left, #000000, #8c8b8b, #000000);
+    background-image: -ms-linear-gradient(left, #000000, #8c8b8b, #000000);
+    background-image: -o-linear-gradient(left, #000000, #8c8b8b, #000000); 
+}
+
+hr.section-break {
+    margin: 25px auto;
+    width: 90%;
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #000000, #8c8b8b, #000000);
+    background-image: -moz-linear-gradient(left, #000000, #8c8b8b, #000000);
+    background-image: -ms-linear-gradient(left, #000000, #8c8b8b, #000000);
+    background-image: -o-linear-gradient(left, #000000, #8c8b8b, #000000);  
+}
+
+.front-end {
+    font-size: 7em;
+    color: rgba(102, 153, 106, 0.7);
+    margin: auto 10px;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+.front-end:hover {
+    color: rgba(255, 162, 0, 0.7);
+}
+
+.back-end {
+    font-size: 7em;
+    color: rgba(102, 153, 106, 0.7);
+    margin: auto 10px;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+.back-end:hover {
+    color: rgba(255, 162, 0, 0.7);
+}
