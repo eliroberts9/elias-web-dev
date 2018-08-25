@@ -5,7 +5,18 @@
     border-radius: 15px;
 }
 
+.section-title {
+    padding-bottom: 20px;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.7);
+}
+
 #webdev {
+    margin: 10px 40px;
+}
+
+#itsupport {
     margin: 10px 40px;
 }
 
@@ -27,7 +38,7 @@ div.container {
 .display-4 {
     font-weight: 450;
     color: rgba(0, 0, 0, 0.7);
-    font-size: 5rem;
+    font-size: 6rem;
 }
 
 .lead {
@@ -37,9 +48,12 @@ div.container {
 
 .col {
     text-align: center;
-    margin: 10px 20px;
-    border-radius: 15px;
-    border: 1.5px solid rgba(0, 0, 0, 0.7);
+    /* margin: 10px 20px; */
+    margin: 20px auto;
+    /* border-radius: 15px; */
+    /* border: 1.5px solid rgba(0, 0, 0, 0.7); */
+    border-top: 1.5px solid rgba(0, 0, 0, 0.7);
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.7);
 }
 
 #webdev-hr {
@@ -70,7 +84,7 @@ hr.section-break {
 }
 
 .front-end {
-    font-size: 7em;
+    font-size: 8em;
     color: rgba(102, 153, 106, 0.7);
     margin: auto 10px;
     transition-property: color;
@@ -82,7 +96,7 @@ hr.section-break {
 }
 
 .back-end {
-    font-size: 7em;
+    font-size: 8em;
     color: rgba(102, 153, 106, 0.7);
     margin: auto 10px;
     transition-property: color;
