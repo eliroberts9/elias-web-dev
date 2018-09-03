@@ -1,10 +1,13 @@
 <!DOCTYPE html>
     <head>
         <meta charset="utf-8">
+        <meta name="description" content="Web Design Developer HTML CSS JavaScript PHP JQuery IT Information Systems Angular Database MySQL PostgreSQL mongoDB nodeJS React Microsoft Windows Linux AWS Amazon
+        Services virtualization vmware hyper-v">
         <title>Elias Roberts Web Development</title>
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link rel="stylesheet" href="./styles/styles.css">
+        <link rel="stylesheet" href="styles/styles.css">
     </head>
     <body>
 
@@ -18,9 +21,9 @@
                         <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
                         <a class="nav-item nav-link" href="#webdevlink">Web Development</a>
                         <a class="nav-item nav-link" href="#itlink">IT Support</a>
-                        <a class="nav-item nav-link" href="#">Projects</a>
+                        <a class="nav-item nav-link" href="#projectslink">Projects</a>
                         <a class="nav-item nav-link" href="#">Blog</a>
-                        <a class="nav-item nav-link" href="#">Contact</a>
+                        <a class="nav-item nav-link" href="mailto:elias@eliaswebdev.com">Contact</a>
                     </div>
                     <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item">
@@ -35,7 +38,7 @@
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
                 <h1 class="display-4">Elias Roberts</h1>
-                <h2 class="lead">Web Developer/IT Professional</h2>
+                <h2 class="lead"><span id="title1">Web Developer</span>/<span id="title2">Information Systems Specialist</span></h2>
             </div>
             <hr class="jumbo-break">
         </div>
@@ -44,61 +47,85 @@
             <h3 class="section-title"><a id="webdevlink"></a>Web Development</h3>
                 <div class="row">
                     <div class="col col-lg-10">
-                            <!-- <h4>Front-End</h4> -->
                             <p>
-                                <span class="d-inline-block" data-toggle="tooltip" data-placement="top" title="HTML">
-                                    <i class="fab fa-html5 front-end"></i>
+                                <span class="d-inline-block" data-toggle="tooltip" data-placement="top" title="HTML to build the frame of your site.">
+                                    <i class="fab fa-html5 devicon"></i>
                                 </span>
-                                <span class="d-inline-block" data-toggle="tooltip" data-placement="top" title="CSS">
-                                    <i class="fab fa-css3-alt front-end"></i>
+                                <span class="d-inline-block" data-toggle="tooltip" data-placement="top" title="CSS design to make your site look its best.">
+                                    <i class="fab fa-css3-alt devicon"></i>
                                 </span>
-                                <span class="d-inline-block" data-toggle="tooltip" data-placement="top" title="JavaScript">
-                                    <i class="fab fa-js-square front-end"></i>
+                                <span class="d-inline-block" data-toggle="tooltip" data-placement="top" title="JavaScript to make your site dynamic.">
+                                    <i class="fab fa-js-square devicon"></i>
                                 </span>
-                                <span class="d-inline-block" data-toggle="tooltip" data-placement="top" title="Angular">
-                                    <i class="fab fa-angular front-end"></i>
+                                <span class="d-inline-block" data-toggle="tooltip" data-placement="top" title="Angular to meet your front-end application needs.">
+                                    <i class="fab fa-angular devicon"></i>
                                 </span>
-                                <span class="d-inline-block" data-toggle="tooltip" data-placement="top" title="PHP">
-                                    <i class="fab fa-php front-end"></i>
+                                <span class="d-inline-block" data-toggle="tooltip" data-placement="top" title="PHP for your SQL needs.">
+                                    <i class="fab fa-php devicon"></i>
                                 </span>
                             </p>
-                            <!-- <hr class="section-break"> -->
-                    <!-- </div>
-                    <div class="col col-lg-5"> -->
-                            <!-- <h4>Back-End</h4> -->
                             <p>
-                                <span class="d-inline-block" data-toggle="tooltip" data-placement="top" title="React">
-                                        <i class="fab fa-react front-end"></i>
+                                <span class="d-inline-block" data-toggle="tooltip" data-placement="top" title="React for your UI/UX needs.">
+                                    <i class="fab fa-react devicon"></i>
                                 </span>
-                                <span class="d-inline-block" data-toggle="tooltip" data-placement="top" title="Node.js">
-                                    <i class="fab fa-node back-end"></i>
+                                <span class="d-inline-block" data-toggle="tooltip" data-placement="top" title="Node.js to assist with your application needs.">
+                                    <i class="fab fa-node devicon"></i>
                                 </span>
-                                <span class="d-inline-block" data-toggle="tooltip" data-placement="top" title="Python">
-                                    <i class="fab fa-python back-end"></i>
+                                <span class="d-inline-block" data-toggle="tooltip" data-placement="top" title="Python for your server-side application needs.">
+                                    <i class="fab fa-python devicon"></i>
                                 </span>
-                                <span class="d-inline-block" data-toggle="tooltip" data-placement="top" title="MySQL/PostgreSQL/mongoDB">
-                                    <i class="fas fa-database back-end"></i>
+                                <span class="d-inline-block" data-toggle="tooltip" data-placement="top" title="MySQL/PostgreSQL/mongoDB, any database to fit your needs.">
+                                    <i class="fas fa-database devicon"></i>
                                 </span>
-                                <!-- <span class="d-inline-block" data-toggle="tooltip" data-placement="top" title="PHP">
-                                    <i class="fab fa-php back-end"></i>
-                                </span>
-                                <span class="d-inline-block" data-toggle="tooltip" data-placement="top" title="JavaScript">
-                                    <i class="fab fa-js-square back-end"></i>
-                                </span> -->
                             </p>
                             <p>
-                            Fullstack development for all of your needs from a static, informational site to a fully interactive yadda yadda you get the idea
-                            I'll figure this out later.
+                            <strong>Fullstack Development (hover over icons for additional details):</strong> Static to dynamic.  I offer the full range of concept, design and 
+                            implementation processes needed to bring your web presence to life.
                             </p>
-                            <!-- <hr class="section-break"> -->
                     </div>
                 </div>
         </div>
 
-        <div class="container.fluid" id="itsupport">
-            <h3 class="section-title"><a id="itlink"></a>IT Support</h3>
-            <p>Blah blhahasdl lbahsj blah</p>
+        <div class="container.fluid it-row" id="itsupport">
+            <h3 class="section-title"><a id="itlink"></a>Information Systems</h3>
+            <div class="row">
+                <div class="col col-lg-10">
+                    <p>
+                        <span class="d-inline-block" data-toggle="tooltip" data-placement="top" title="In-depth knowledge of all Windows operating systems from XP to 10, as well as 
+                        Windows Server 2003 to 2016.">
+                                <i class="fab fa-microsoft devicon"></i>
+                        </span>
+                        <span class="d-inline-block" data-toggle="tooltip" data-placement="top" title="Linux end user support to Linux servers, I can support, deploy and administrate 
+                        any distro that fits your needs.">
+                                <i class="fab fa-linux devicon"></i>
+                        </span>
+                        <span class="d-inline-block" data-toggle="tooltip" data-placement="top" title="From storage to virutal server/network administration, I can provide AWS support 
+                        to suit your needs.">
+                                <i class="fab fa-aws devicon"></i>
+                        </span>
+                        <span class="d-inline-block" data-toggle="tooltip" data-placement="top" title="The IoT, VMware, Hyper-V, all things falling under cloud computing, I'm here to 
+                        make it work.">
+                                <i class="fab fa-cloudversify devicon"></i>
+                        </span>
+                    </p>
+                    <p><strong>IT Support (hover over icons for additional details):</strong> From end user support to server and networking virtualization, I can provide administration for all of your IT needs.</p>
+                </div>
+            </div>
         </div>
+
+        <div class="container.fluid it-row" id="itsupport">
+                <h3 class="section-title"><a id="projectslink"></a>Projects</h3>
+                    <div class="row">
+                        <div class="col col-lg-10">
+                            <p class="devtext"><strong>In the works...</strong></p>
+                        </div>
+                    </div>
+        </div>           
+
+        <footer class="page-footer font-small special-color-dark">
+                <div class="footer-copyright text-center py-3">© 2018: <a id="footer-contact" href="mailto:elias@eliaswebdev.com">Elias Roberts</a>
+                </div>         
+              </footer>
         
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
