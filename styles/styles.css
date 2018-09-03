@@ -44,6 +44,10 @@ div.row {
     color: rgba(0, 0, 0, 0.7);
 }
 
+.jumbotron {
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.7);
+}
+
 .section-title {
     padding-bottom: 20px;
     font-size: 2.5em;
@@ -89,6 +93,10 @@ div.row {
     margin: auto 10px;
     transition-property: all;
     transition-duration: 0.5s;
+}
+
+.navbar {
+    border-bottom: 1px solid black;
 }
 
 .devicon:hover {
@@ -175,8 +183,6 @@ div.row {
     83.98% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.006, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.006, 0, 0, 1); }
     100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
 }
-  
-  
 
 .jumbotron-name {
     -webkit-animation: animation2 2000ms linear both;
