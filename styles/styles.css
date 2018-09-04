@@ -1,6 +1,7 @@
 body {
-    background-image: url("../images/black-bricks.jpg");
-    background-size: contain;
+    background-image: url("../images/coffeeshop.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 p.devtext {
