@@ -23,7 +23,7 @@
                     <a class="nav-item nav-link" href="#itlink">IT Support</a>
                     <a class="nav-item nav-link" href="#projectslink">Projects</a>
                     <a class="nav-item nav-link" href="#">Blog</a>
-                    <a class="nav-item nav-link" href="mailto:elias@eliaswebdev.com">Contact</a>
+                    <a class="nav-item nav-link" href="#contactlink">Contact</a>
                 </div>
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item">
@@ -43,7 +43,7 @@
             <hr class="jumbo-break">
         </div>
 
-        <div class="container.fluid" id="webdev">
+        <div class="container.fluid section">
             <h3 class="section-title"><a id="webdevlink"></a>Web Development</h3>
                 <div class="row">
                     <div class="col col-lg-10">
@@ -86,7 +86,7 @@
                 </div>
         </div>
 
-        <div class="container.fluid it-row" id="itsupport">
+        <div class="container.fluid it-row section">
             <h3 class="section-title"><a id="itlink"></a>Information Systems</h3>
             <div class="row">
                 <div class="col col-lg-10">
@@ -113,19 +113,46 @@
             </div>
         </div>
 
-        <div class="container.fluid it-row" id="itsupport">
+        <div class="container.fluid it-row section">
                 <h3 class="section-title"><a id="projectslink"></a>Projects</h3>
                     <div class="row">
                         <div class="col col-lg-10">
-                            <p class="devtext"><strong>In the works...</strong></p>
+                            <p class="devtext">In the works...</p>
                         </div>
                     </div>
-        </div>           
+        </div>
+        
+        <div class="container.fluid it-row section">
+            <h3 class="section-title"><a id="contactlink"></a>Contact</h3>
+                <div class="row contact-section">
+                    <div class="col col-md-6">
+                        <form action="https://formspree.io/elias@eliaswebdev.com" method="POST">
+
+                            <div class="form-group">
+                                    <label for="name" class="contacttext">Your Name</label>
+                                    <input type="text" class="form-control" id="name" aria-describedby="nameHelp" name="name" placeholder="Name" maxlength="50" required>
+                                </div>
+
+                            <div class="form-group">
+                                <label for="email" class="contacttext">Email Address</label>
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email" placeholder="Email" maxlength="50" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="inquiry" class="contacttext">Inquiry</label>
+                                <textarea class="form-control" id="inquiry" name="inquiry" rows="4" placeholder="Inquiry" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+        </div>
 
         <footer class="page-footer font-small special-color-dark">
                 <div class="footer-copyright text-center py-3">© 2018: <a id="footer-contact" href="mailto:elias@eliaswebdev.com">Elias Roberts</a>
                 </div>         
-              </footer>
+        </footer>
         
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
