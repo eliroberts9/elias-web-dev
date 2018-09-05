@@ -50,6 +50,7 @@ div.row {
 }
 
 .jumbotron {
+    opacity: 1;
     background-color: rgba(233, 236, 239, 0.9);
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.7);
 }
@@ -97,6 +98,7 @@ div.row {
 }
 
 .navbar {
+    opacity: 1;
     border-bottom: 1px solid black;
 }
 
